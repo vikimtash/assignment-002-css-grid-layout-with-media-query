@@ -1,0 +1,36 @@
+.Container{
+    display: grid;
+    height: 100vh;
+}
+.header{
+    grid-area: header;
+}
+aside1{
+    grid-area: auto;
+}
+header{
+    grid-area: H1;
+}
+.sibebar{
+    grid-area: auto;
+}
+#politics{
+    grid-area: politics;
+    background-color: chartreuse;
+}
+#technology{
+    grid-area: Technology;
+    background-color: darkturquoise;
+}
+#locals{
+    grid-area: Locals;
+    background-color: cornflowerblue;
+}
+#opinion{
+    grid-area: Opinion;
+    background-color: lightslategray;
+}
+#sports{
+    grid-area: Sports;
+    background-color: darkcyan;
+}
