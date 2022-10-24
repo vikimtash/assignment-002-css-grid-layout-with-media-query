@@ -2,7 +2,7 @@
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 0.2fr 3fr;
+    grid-template-rows: -0.1fr 3fr;
     border: 2px solid;
     grid-template-areas: 
             "nav nav nav"
@@ -18,22 +18,27 @@
 nav{
     grid-area: nav;
     text-align: center;
+    font-style: italic;
 }
 .main{
     grid-area: main;
     border: 0.8px solid;
+    text-align: center;
 }
 .breaking{
     grid-area: breaking;
     border: 0.8px solid;
+    text-align: center;
 }
 .css{
     grid-area: css;
     border: 0.8px solid;
+    text-align: center;
 }
 .boy{
     grid-area: boy;
     border: 0.8px solid;
+    text-align: center;
 }
 #politics{
     grid-area: Politics;
