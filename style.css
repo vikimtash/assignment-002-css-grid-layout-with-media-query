@@ -1,36 +1,56 @@
-.Container{
+.TOPIC{
     display: grid;
     height: 100vh;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    border: 2px solid;
+    grid-template-areas: 
+            "nav nav nav"
+            "breaking main css"
+            "boy Politics Politics"
+            "boy Technology Technology"
+            "boy locals locals"
+            "boy Opinion Opinion"
+            "boy Sports Sports"
+
+    ;
 }
-.header{
-    grid-area: header;
+nav{
+    grid-area: nav;
+    text-align: center;
 }
-aside1{
-    grid-area: auto;
+.main{
+    grid-area: main;
+    border: 0.8px solid;
 }
-header{
-    grid-area: H1;
+.breaking{
+    grid-area: breaking;
+    border: 0.8px solid;
 }
-.sibebar{
-    grid-area: auto;
+.css{
+    grid-area: css;
+    border: 0.8px solid;
+}
+.boy{
+    grid-area: boy;
+    border: 0.8px solid;
 }
 #politics{
-    grid-area: politics;
-    background-color: chartreuse;
+    grid-area: Politics;
+    background-color: rgb(93, 240, 9);
 }
 #technology{
     grid-area: Technology;
-    background-color: darkturquoise;
+    background-color: deepskyblue;
 }
 #locals{
-    grid-area: Locals;
-    background-color: cornflowerblue;
+    grid-area: locals;
+    background-color: darkviolet;
 }
 #opinion{
-    grid-area: Opinion;
-    background-color: lightslategray;
+    grid-area: Opinion;background-color: grey;
 }
 #sports{
     grid-area: Sports;
-    background-color: darkcyan;
+    background-color: lightslategrey;
 }
