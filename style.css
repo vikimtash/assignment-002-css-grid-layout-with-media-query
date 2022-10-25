@@ -1,9 +1,8 @@
 .TOPIC{
-    display: grid;
+    display: grid;    
     height: 100vh;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: -2.5fr 2.5fr;
-    border: 2px solid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: 0.2fr 2.5fr;
     grid-template-areas: 
             "nav nav nav"
             "breaking main css"
@@ -22,22 +21,22 @@ nav{
 }
 .main{
     grid-area: main;
-    border: 0.8px solid;
+    border: 1px solid;
     text-align: center;
 }
 .breaking{
     grid-area: breaking;
-    border: 0.8px solid;
+    border: 1px solid;
     text-align: center;
 }
 .css{
     grid-area: css;
-    border: 0.8px solid;
+    border: 1px solid;
     text-align: center;
 }
 .boy{
     grid-area: boy;
-    border: 0.8px solid;
+    border: 1px solid;
     text-align: center;
 }
 #politics{
