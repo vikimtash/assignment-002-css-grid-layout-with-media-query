@@ -21,50 +21,54 @@ nav{
 }
 .main{
     grid-area: main;
-    border-top: 0.2px solid;
-    border-bottom: 0.2px solid;
+    border: 1px solid;
     text-align: center;
 }
 .breaking{
     grid-area: breaking;
-    border: 0.2px solid;
+    border: 1px solid;
     text-align: center;
 }
 .css{
     grid-area: css;
-    border: 0.2px solid;
+    border: 1px solid;
     text-align: center;
 }
 .boy{
     grid-area: boy;
-    border: 0.2px solid;
+    border: 1px solid;
     text-align: center;
 }
 #politics{
     grid-area: Politics;
     background-color: rgb(93, 240, 9);
     border-right: 1.5px solid;
+    border-left: 1.5px solid;
 }
 #technology{
     grid-area: Technology;
     background-color: deepskyblue;
     border-right: 1.5px solid;
+    border-left: 1.5px solid;
 }
 #locals{
     grid-area: locals;
     background-color: darkviolet;
     border-right: 1.5px solid;
+    border-left: 1.5px solid;
 }
 #opinion{
     grid-area: Opinion;
     background-color: grey;
     border-right: 1.5px solid;
+    border-left: 1.5px solid;
 }
 #sports{
     grid-area: Sports;
     background-color: lightslategrey;
     border-right: 1.5px solid;
     border-bottom: 1.5px solid;
+    border-left: 1.5px solid;
 }
 @media (max-width:576px)
 {
