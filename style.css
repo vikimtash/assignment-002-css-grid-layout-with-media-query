@@ -1,8 +1,8 @@
 .TOPIC{
     display: grid;
     height: 100vh;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: -0.1fr 3fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: -2.5fr 2.5fr;
     border: 2px solid;
     grid-template-areas: 
             "nav nav nav"
@@ -58,4 +58,25 @@ nav{
 #sports{
     grid-area: Sports;
     background-color: lightslategrey;
+}
+@media (max-width:576px)
+{
+    .TOPIC{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1 0.5fe 0.5fr 0.5fr 0.5fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+        grid-template-areas: 
+                "nav"
+                "breaking"
+                "main"
+                "css"
+                "boy"
+                "Politics"
+                "Technology"
+                "locals"
+                "Opinion"
+                "Sports"
+
+        ;
+    }
+    
 }
